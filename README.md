@@ -12,15 +12,9 @@ Using a JavaScript or TypeScript-based framework, create a web application that 
 
 #### Customer Acceptance Criteria:
 - The user should be able to create a TODO list
-- The user should be able to add items/tasks to the TODO list
-- The user should be able to remove items/tasks from the TODO list
-- The user should be able to re-order the items/tasks in the TODO list
+- The user should be able to add tasks to the TODO list
+- The user should be able to remove tasks from the TODO list
+- The user should be able to re-order the tasks in the TODO list
 - The application should be presented on screen with some effort given to intuitive design and usability
-
-#### Nice to Haves:
-- The user should be able to save TODO list
-- The application should suppose user login
-- Logging in should allow the user to view a previously save TODO list
-- Users can save multiple TODO lists
 
 A note on data – Normally data would be stored in a database and accessed via an API. This is not the case for this task. Instead, data should be ‘stored’ client-side. Feel free to mimic/stub how the application would make calls to an API although this is not necessary.
