@@ -1,0 +1,16 @@
+@using todo_list_blazor.Code
+@foreach (var item in todoItems)
+{
+    <div>
+        <input type="checkbox" id="@item.Id" checked=@item.Done>
+        <label for="@item.Id">@item.Description</label>
+    </div>
+}
+
+@code {
+    private List<ToDoItem> todoItems = new List<ToDoItem> {
+        new ToDoItem { Id = 1, Description = "Learn Blazor", Done = false},
+        new ToDoItem { Id = 2, Description = "Revise C#", Done = false},
+        new ToDoItem { Id = 3, Description = "Componentise the list", Done = true}
+    };
+}
